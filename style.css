@@ -381,7 +381,7 @@ body {
 .btn-outline:link,
 .btn-visited {
     background-color: transparent;
-    color: var(--dark);
+    color: #fff;
     box-shadow: 1px 1px 7px -3px var(--dark);
 }
 
