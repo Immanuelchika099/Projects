@@ -111,11 +111,10 @@ body {
     min-width: 100%;
     min-height: 100%;
     width: 100%;
-    height: 100vh;
+    height: 100%;
     z-index: -1;
     transform: translateX(-50%) translateY(-50%);
     object-fit: cover;
-    overflow-y: hidden;
 }
 
 /* --------- ARROW SCROLL ---- */
