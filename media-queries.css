@@ -290,7 +290,7 @@
 
     /* PORTFOLIO SECTION */
     #feature-portfolio-section{
-        height: 120vh;
+        height: 110vh;
     }
     .portfolio-link-wrapper:hover .portfolio-heading {
         font-size: 50px;
@@ -485,7 +485,7 @@
 
     /* FEATURE SECTION */
     .feature-container{
-        height: 85vh;
+        height: 90vh;
         display: flex;
         flex-direction: column;
         justify-content: center;
@@ -553,20 +553,6 @@
     } 
 
     /* HEADING SECTION */
-    .main-body{
-        height: 80vh;
-        min-height: 70vh;
-        overflow: hidden;
-    }
-    .main-body::before{
-        height: fit-content;
-        min-height: 80vh;
-    }
-    #background-video{
-        top: 30%;
-        height: fit-content;
-        overflow: hidden;
-    }
     /* ARROW SCROLL */
     .arrow-scroll{
         bottom: 30px
@@ -705,22 +691,7 @@
     /* 480px */
 
     /* NAV BAR CONTAINER */
-
-
     /* HEADING SECTION */
-    .main-body{
-        height: 100vh;
-        min-height: 80vh;
-        overflow: hidden;
-    }
-    .main-body::before{
-        height: 100vh;
-    }
-    #background-video{
-        top: 50%;
-        height: fit-content;
-        overflow: hidden;
-    }
     h1.hero-title{
         margin-top: 0px;
         font-size: 31px;
@@ -807,7 +778,7 @@
     
     /* FEATURE-CONTAINER */
     .feature-container{
-        height: 80vh;
+        height: 90vh;
     }
     .feature-cta-card-main{
         height: fit-content;
@@ -970,18 +941,13 @@
 
 @media (max-width: 26.75rem) {
     /* 430px */
+    #background-video{
+        object-fit:cover;
+        top: 400px;
+    }
     .container-main{
         width: 120rem;
         max-width: 80%;
-    }
-    #main-body.main-body{
-        height: 100vh;
-    }
-    .main-body::before{
-        height: 100vh;
-    }
-    #background-video{
-        top: 50%;
     }
     .arrow-scroll{
         bottom: 70px;
@@ -1000,7 +966,7 @@
         margin-top: 0;
         display: flex;
         row-gap: 0px;
-        height: 100vh;
+        height: 90vh;
     }
     .hero-footer.one{
         display: flex;
@@ -1107,6 +1073,13 @@
 }
 @media (max-width:23.5rem) {
     /* 375px */
+    .main-body::before{
+        height: 100vh;
+    }
+    #background-video{
+        object-fit:cover;
+        top: 400px;
+    }
 
     /* NAVIGATION MENU */
     .nav-bar-main #nav-links{
@@ -1114,6 +1087,10 @@
     }
     .nav-links-text{
         font-size: 1.6rem;
+    }
+
+    #feature-container-main.feature-container{
+        height: 100vh;
     }
 
     /* TESTIMONIAL SECTION */
@@ -1321,7 +1298,7 @@
     }
     .hero-content{
         height: fit-content;
-        margin-top: 4rem;
+        margin-top: 1rem;
     }
     .hero-footer-main{
         height: 25vh;

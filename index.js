@@ -1,3 +1,9 @@
+const video = document.getElementById ('background-video');
+
+video.oncanplay = () => {
+  document.body.classList.add ('video-loaded')
+}
+
 // NAV BAR TOGGLE
 const navbarToggle = document.querySelector('.navbar-toggle');
 const navbarLinks =document.querySelector('.nav-links')
