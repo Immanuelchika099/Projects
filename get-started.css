@@ -1,0 +1,245 @@
+@font-face {
+    font-family: 'Inter';
+    src: url('Inter-VariableFont_opsz\,wght.ttf') format('truetype');
+} 
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    font-family: 'Inter', sans-serif;
+}
+
+.main-body::before{
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    z-index: -1;
+    background: linear-gradient(90deg,rgba(0, 0, 0, 0.84), rgba(18, 18, 17, 0.457)) ;
+}
+
+#background-video{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    min-width: 100%;  
+    min-height: 100%; 
+    width: auto;      
+    height: 100vh;     
+    z-index: -1;     
+    transform: translateX(-50%) translateY(-50%); /* Centers the video element precisely */
+    object-fit: cover;
+}
+
+.login-card{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    color: #fff;
+    background: transparent;
+    backdrop-filter: blur(10px);
+    box-shadow: 0px 0px 80px -30px #747272e7;
+    width: 500px;
+    padding: 3rem 4rem;
+    border-radius: 2rem;
+    height: 600px;
+}
+img{
+    width: 30px;
+}
+.logo-h1{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    row-gap: 0.5rem;
+}
+h1{
+    font-size: 38px;
+    margin-bottom: 0.5rem;
+    text-align: center;
+}
+
+.btn{
+    height: 45px;
+    width: 100%;
+    border: none;
+    outline: none;
+    border-radius: 3rem;
+    background: #fff;
+    color: #181818;
+    margin-bottom: 1.7rem;
+    font-weight: 600;
+    transition: 400ms linear;
+    font-size: 1rem;
+}
+.btn:hover{
+    box-shadow: 0px 0px 80px -30px #ffffffe7;
+}
+.login-card .input-tag{
+    width: 100%;
+    height: 50px;
+    margin: 1rem 0;   
+}
+
+.login-card .input-box{
+    position: relative;
+    color: #fff;
+    background: transparent;
+    border-radius: 4rem;
+    font-size: 1.1rem;
+    height: 50px;
+    width: 100%;
+    margin: 30px 0;
+}
+.input-box input{
+    color: #fff;
+    padding: 1.5rem 2rem;
+    width: 100%;
+    height: 100%;
+    background: transparent;
+    border: none;
+    outline: none;
+    border: 2px solid rgba(255, 255, 255, .2);
+    border-radius: 4rem;
+}
+.input-box i{
+    position: absolute;
+    right: 30px;
+    top: 50%;
+    transform: translateY(-50%);
+    pointer-events: none;
+}
+
+input.input-box::placeholder{
+    color: #fff;
+    padding-left: 1rem;
+}
+
+.remember-forget{
+    accent-color: #fff;
+    display: flex;
+    justify-content: space-between;
+    margin-right: 3px;
+    margin-bottom: 2.5rem;
+    transition: 350ms ease-in-out;
+}
+.remember-me{
+    display: flex;
+}
+input.check{
+    display: inline-block;
+    margin-right: 0.2rem;
+}
+.reset:hover{
+    text-decoration: underline;
+}
+
+.reset{
+    color: #fff;
+    text-decoration: none;
+}
+.Register-flex{
+    display: flex;
+    justify-content: center;
+}
+p{
+    padding-right: 10px;
+}
+.register{
+    color: #fff;
+    font-weight: 300;
+}
+
+@media (max-width: 125rem){
+    #background-video{
+        width: 100%;
+    }
+    .main-body{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin: auto;
+        width: 100%;
+        max-width: 70%;
+    }
+}
+@media (max-width:44.37rem) {
+    h1{
+        font-size: 36px;
+        margin-bottom: 60px;
+    }
+    .remember-forget{
+        font-size: 12px;
+    }
+    .login-card .input-box{
+        margin: 28px 0;
+    }
+    .Register-flex{
+        font-size: 12px;
+    }
+    .login-card{
+        width: 500px;
+        height: 550px;
+    }
+}
+@media (max-width:39.3rem) {
+    body{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    h1{
+        font-size: 34px;
+        margin-bottom: 58px;
+    }
+    .login-card .input-box{
+        margin: 25px 0;
+    }
+    .login-card{
+        width: 500px;
+        height: 500px;
+        padding: 2rem;
+    }
+}
+@media (max-width:30.62rem) {
+    .main-body{
+        max-width: 90%;
+    }
+    h1{
+        font-size: 30px;
+        margin-bottom: 44px;
+    }
+    .login-card{
+        width: 500px;
+        height: 450px;
+        padding: 1.5rem;
+    }
+    .remember-forget{
+        font-size: 11px;
+    }
+    .Register-flex{
+        font-size: 11px;
+    }
+    .btn{
+        height: 38px;
+    }
+    .login-card .input-box{
+        margin: 20px 0;
+    }
+}

@@ -1,0 +1,435 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Project</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="images/logo_text.png">
+    <link rel="stylesheet" href="media-queries.css">
+    <link rel="stylesheet" href="http://unpkg.com/aos@next/dist/aos.css" />
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+    <script src="http://unpkg.com/aos@next/dist/aos.js"></script>
+    <script src="index.js" defer></script>
+</head>
+
+<body>
+
+    <!-- BACKGROUND VID -->
+    <video autoplay muted loop playsinline id="background-video" src="images/cloud-dark.mp4" type="video/mp4">
+    </video>
+    <!------------------------------------------------ MAIN HEADING SECTION -->
+    <div id="main-body" class="main-body">
+        <nav class="nav-bar-main">
+
+            <!-- NAV LOGO -->
+
+            <a href=""><img class="nav-logo" src="images/logo_text_white.png" alt=""></a>
+            <!-- NAV LINKS -->
+            <ul id="nav-links" class="nav-links">
+                <li><a class="nav-links-text active" href="#main-body">Home </a></li>
+                <li class="link-icon"><a class="nav-links-text" href="#feature-container-main">Components</a></li>
+                <li class="link-icon"><a class="nav-links-text" href="#feature-portfolio-section">Works</a></li>
+                <li class="link-icon"><a class="nav-links-text" href="#feature-testimonial-section">Reviews</a></li>
+                <li class="link-icon"><a class="nav-links-text" href="#footer-contact">Contact</a></li>
+            </ul>
+            <!-- MENU ICONS -->
+            <div class="menu-icon">
+                <li> <a href="#"><img class="nav-icons" src="images/icons/instagram_white.png" alt=""></a></li>
+                <li><a href="#"><img class="nav-icons" src="images/icons/twitter_white.png" alt=""></a></li>
+                <li><a href="https://web.facebook.com/?ref=homescreenpwa&_rdc=1&_rdr" target="_blank"><img
+                            class="nav-icons" src="images/icons/facebook_white.png" alt=""></a></li>
+            </div>
+            <!-- MENU TOOGLE BAR -->
+                <button class="navbar-toggle">
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                </button>
+        </nav>
+
+        <!--------------------- CONTAINER -------------------->
+        <section class="container-main">
+            <a class="arrow-scroll-main" href="#feature-container-main"><img class="arrow-scroll"
+                    src="images/arrow_scroll.png" alt=""></a>
+
+            <header class="main-header">
+                <!--------------- HERO SECTION --------------->
+                <main class="hero-section">
+
+                    <div class="hero-content">
+                        <h1 class="hero-title">FUTURE OF <br> CREATIVE <br> EXPRESSION</h1>
+                        <p class="hidden-hero-text">Step into the future of creativity <br> with Kaln Front-end,
+                                where innovation <br>knows no bounds.
+                        </p>
+                        <div class="hero-buttons">
+                            <a class="btn btn-primary" href="Get Started.html">Get Started</a>
+                            <a class="btn btn-outline" href="contact-us.html">Contact Us</a>
+                        </div>
+                        <div class="hero-footer-main">
+                            <div class="hero-footer one">
+                                <p class="hidden-hero-text head">1,000+</p>
+                                <p class="hidden-hero-text one">Projects <br>completed</p>
+                            </div>
+                            <div class="hero-footer one">
+                                <p class="hidden-hero-text head">100+</p>
+                                <p class="hidden-hero-text one">Satisfied <br>clients</p>
+                            </div>
+                        </div>    
+                    </div>
+
+                    <!-- MY CTA CARDS -->
+                    <div class="grid-2">
+
+                        <div class="hero-cta-card2">
+                            <h3 class="hero-cta-card-text h1">1,000+ <a href="#"><img
+                                        class="more-horiz" src="images/more_horiz_24dp_E3E3E3_FILL0_wght400_GRAD0_opsz24.svg" alt=""></a>
+                            </h3>
+                            <p class="hero-cta-card-text p">Projects Shaped by innovation</p>
+                            <div class="cta-buttons">
+                                <li><a href="" class="btn btn-tertiary one">Graphics</a></li>
+                                <div class="btn-flex">
+                                    <li><a href="" class="btn btn-tertiary">Design</a></li>
+                                    <li><a href="" class="btn btn-tertiary">Branding</a></li>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="grid-1">
+
+                        <div class="hero-cta-card1">
+                            <p class="hero-cta-card-text">Step into the future of creativity <br> with Kaln Front-end,
+                                where innovation <br>knows no bounds.</p>
+                            <div class="cta-arrow-icon"><a href="#"><img class="icon-arrow"
+                                        src="arrow_forward_24dp_FFFFFF_FILL0_wght400_GRAD0_opsz24.svg" alt=""></a>
+                            </div>
+                        </div>
+                    </div>
+
+
+                    <!-- CARD 2 -->
+
+                    <!-- CARD 3 -->
+                    <div class="grid-3">
+
+                        <div class="hero-cta-card3">
+                            <p class="hero-cta-card-text t">Satisfied Clients</p>
+                            <img class="cta-chart-img" src="images/chart.png" alt="">
+                        </div>
+                    </div>
+
+                </main>
+            </header>
+    </div>
+
+    <!---------------------------------------------- FEATURE COMPONENT SECTION -------------------------------------->
+    <section id="feature-container-main" class="feature-container" data-aos="fade-up">
+
+        <div class="feature-item">
+            <h2 class="feature-heading">MARKETING SOLUTIONS <br> WE OFFER</h2>
+            <p class="feature-heading-text">Our designs are more than visuals, <br>they are powerful statements that
+                inspire and captivate.</p>
+        </div>
+        <div class="feature-cta-card-main" id="scrollContainer">
+            <div class="feature-cta-card one">
+                <h3 class="h3-cube"><ion-icon class="cube-icon" name="cube-outline"></ion-icon>3D
+                    Visualization</h3>
+                <p class="card-text">Crafting cutting-edge Virtual Reality (VR) and Augmented Reality (AR) solutions for
+                    training, and interactive product showcases.</p>
+                <p><a href="#" class="card-text-p">Learn more</a></p>
+            </div>
+            <div class="feature-cta-card two">
+                <h3 class="h3-cube"><ion-icon class="cube-icon" name="phone-portrait-outline"></ion-icon>App Design
+                </h3>
+                <p class="card-text">Our team designs intuitive and visually stunning websites and applications that
+                    combine funtionality with creativity.</p>
+                <p><a href="#" class="card-text-p">Learn more</a></p>
+            </div>
+            <div class="feature-cta-card three">
+                <h3 class="h3-cube"><ion-icon class="cube-icon" name="play-circle-outline"></ion-icon>Motion
+                    Graphics</h3>
+                <p class="card-text">Transforming complex datasets into engaging and ease-to-understand animated
+                    infographics.</p>
+                <p><a href="#" class="card-text-p">Learn more</a></p>
+            </div>
+            <div class="feature-cta-card four">
+                <h3 class="h3-cube"><ion-icon class="cube-icon" name="pencil-outline"></ion-icon>Content
+                    Creation</h3>
+                <p class="card-text">Engaging content that connects with your audience and drives conversations.</p>
+                <p><a href="#" class="card-text-p">Learn more</a></p>
+            </div>
+            <div class="feature-cta-card five">
+                <h3 class="h3-cube"><ion-icon class="cube-icon" name="newspaper-outline"></ion-icon>Marketing Strategies
+                </h3>
+                <p class="card-text">Maximixe your online presence with our digital marketing solutions,
+                    through social media campaigns to email marketing.</p>
+                <p><a href="#" class="card-text-p">Learn more</a></p>
+            </div>
+            <div class="feature-cta-card six">
+                <h3 class="h3-cube"><ion-icon class="cube-icon" name="layers-outline"></ion-icon>UI/UX Consulting</h3>
+                <p class="card-text">Enhancing user experiences through strategic design thinking and research-driven
+                    insights.</p>
+                <p><a href="#" class="card-text-p">Learn more</a></p>
+            </div>
+        </div>
+        <div class="pagination" id="pagination"></div>
+    </section>
+
+    <!---------------------------------------------- FEATURE PORTFOLIO SECTION --------------------------------------->
+    <section id="feature-portfolio-section" class="portfolio-container" data-aos="fade-up">
+        <h2 class="feature-portfolio-heading"> CREATIVE VAULT </h2>
+        <div class="portfolio-info">
+            <h3 class="text-info-main">Here is a selection <br> of our most recent <br> works </h3>
+            <p class="text-info">HOVER ON NAMES <br> FOR A CLOSER LOOK</p>
+
+        </div>
+        <div class="portfolio-item">
+            <a href="#" class="portfolio-link-wrapper">
+                <h3 class="portfolio-heading one">STUDIO KALN</h3>
+                <p class="portfolio-paragraph">WEBDESIGN + WEBFLOW</p>
+            </a>
+        </div>
+        <div class="portfolio-item">
+            <a href="#" class="portfolio-link-wrapper">
+                <h3 class="portfolio-heading two">DESIGN CLUB</h3>
+                <p class="portfolio-paragraph">UI/UX DESIGN</p>
+            </a>
+        </div>
+        <div class="portfolio-item">
+            <a href="#" class="portfolio-link-wrapper">
+                <h3 class="portfolio-heading three">FIGUTAN EXTRA</h3>
+                <p class="portfolio-paragraph">WEBDESIGN + WEBFLOW</p>
+            </a>
+        </div>
+        <div class="portfolio-item">
+            <a href="#" class="portfolio-link-wrapper">
+                <h3 class="portfolio-heading four">SKIT MAGIXAL</h3>
+                <p class="portfolio-paragraph">WEBFLOW DEVELOPMENT</p>
+            </a>
+        </div>
+    </section>
+
+    <!---------------------------------------------- FEATURE TESTIMONIAL SECTION ------------------------------------->
+    <section id="feature-testimonial-section" data-aos="fade-up">
+        <div class="feature-testimonial-flex">
+            <h2 class="feature-testimonial-heading">WHAT OUR CLIENTS <br>SAY ABOUT US</h2>
+            <p class="small-text testimonial">Hear from our incredible clients <br>who are building at lightening speed.
+            </p>
+        </div>
+        <a href="#"><img class="testimonial-left" src="images/icons/backward_arrow.png" alt=""></a>
+        <a href="#"><img class="testimonial-right" src="images/icons/forward_arrow.png" alt=""></a>
+        <div class="testimonial-cta-card-main">
+            
+            <div class="testimonial-cta-card one">
+                <div class="image-outline"><img src="images/testimonial-images/72a5aed8-d2b8-4153-806c-f4d65d6481e9.jpg"
+                        alt=""></div>
+                <p class="cta-card-heading">Luffy Ahmed</p>
+                <p class="small-text sub-text">Founder & CEO</p>
+                <p class="small-text main-text">Their attention to detail and commitment to quality are unmatched. I'm
+                    so grateful for their expertise and would highly recommend them to anyone.</p>
+                <div class="star-more">
+                    <div class="star-align">
+                        <ion-icon class="star" name="star"></ion-icon>
+                        <ion-icon class="star" name="star"></ion-icon>
+                        <ion-icon class="star" name="star"></ion-icon>
+                        <ion-icon class="star" name="star"></ion-icon>
+                        <ion-icon class="star" name="star-half"></ion-icon>
+                    </div>
+                    <div class="cta-arrow-icon"><a href="#"><img class="icon-arrow"
+                                src="arrow_forward_24dp_FFFFFF_FILL0_wght400_GRAD0_opsz24.svg" alt=""></a>
+                    </div>
+                </div>
+            </div>
+            <div class="testimonial-cta-card two">
+                <div class="image-outline"><img src="images/testimonial-images/872f00ef-2884-49f6-acd8-408e2efb2d44.jpg"
+                        alt=""></div>
+                <p class="cta-card-heading">Robbin Sonia</p>
+                <p class="small-text sub-text">CEO of Jagajaga</p>
+                <p class="small-text main-text">From the initial consultation to the final delivery, they've been
+                    professional, responsive and dedicated to ensuring my complete satisfaction.</p>
+                <div class="star-more">
+                    <div class="star-align">
+                        <ion-icon class="star" name="star"></ion-icon>
+                        <ion-icon class="star" name="star"></ion-icon>
+                        <ion-icon class="star" name="star"></ion-icon>
+                        <ion-icon class="star" name="star"></ion-icon>
+                        <ion-icon class="star-outline" name="star-outline"></ion-icon>
+                    </div>
+                    <div class="cta-arrow-icon"><a href="#"><img class="icon-arrow"
+                                src="arrow_forward_24dp_FFFFFF_FILL0_wght400_GRAD0_opsz24.svg" alt=""></a>
+                    </div>
+                </div>
+            </div>
+            <div class="testimonial-cta-card three">
+                <div class="image-outline"><img src="images/testimonial-images/cfd60f9d-1aba-4764-aec7-7e9e3375b371.jpg"
+                        alt=""></div>
+                <p class="cta-card-heading">Jack Griffo</p>
+                <p class="small-text sub-text">Director of Sales</p>
+                <p class="small-text main-text">Their expertise and creativity shone through in every aspect of the
+                    project, and the final result was truly exceptional.</p>
+                <div class="star-more">
+                    <div class="star-align">
+                        <ion-icon class="star" name="star"></ion-icon>
+                        <ion-icon class="star" name="star"></ion-icon>
+                        <ion-icon class="star" name="star"></ion-icon>
+                        <ion-icon class="star-outline" name="star-outline"></ion-icon>
+                        <ion-icon class="star-outline" name="star-outline"></ion-icon>
+                    </div>
+                    <div class="cta-arrow-icon"><a href="#"><img class="icon-arrow"
+                                src="arrow_forward_24dp_FFFFFF_FILL0_wght400_GRAD0_opsz24.svg" alt=""></a>
+                    </div>
+                </div>
+            </div>
+            <div class="testimonial-cta-card four">
+                <div class="image-outline"><img src="images/testimonial-images/de80bf7a-21c5-4e64-85ae-574783013eee.jpg"
+                        alt=""></div>
+                <p class="cta-card-heading">Rielle Downs</p>
+                <p class="small-text sub-text">Actress & Marketer</p>
+                <p class="small-text main-text">I've worked with so many teams in the past, but none have compared to
+                    this one.</p>
+                <div class="star-more">
+                    <div class="star-align">
+                        <ion-icon class="star" name="star"></ion-icon>
+                        <ion-icon class="star" name="star"></ion-icon>
+                        <ion-icon class="star" name="star"></ion-icon>
+                        <ion-icon class="star" name="star"></ion-icon>
+                        <ion-icon class="star" name="star"></ion-icon>
+                    </div>
+                    <div class="cta-arrow-icon"><a href="#"><img class="icon-arrow"
+                                src="arrow_forward_24dp_FFFFFF_FILL0_wght400_GRAD0_opsz24.svg" alt=""></a>
+                    </div>
+                </div>
+            </div>
+            <div class="testimonial-cta-card five">
+                <div class="image-outline"><img src="images/testimonial-images/febd29e5-656c-4e3e-815f-d08ee6c67036.jpg"
+                        alt=""></div>
+                <p class="cta-card-heading">Emeka Judah</p>
+                <p class="small-text sub-text">Lead Software Engineer</p>
+                <p class="small-text main-text">Professional, reliable, and delivered outstanding results. I'm so
+                    impressed.</p>
+                <div class="star-more">
+                    <div class="star-align">
+                        <ion-icon class="star" name="star"></ion-icon>
+                        <ion-icon class="star" name="star"></ion-icon>
+                        <ion-icon class="star" name="star"></ion-icon>
+                        <ion-icon class="star" name="star"></ion-icon>
+                        <ion-icon class="star" name="star-half"></ion-icon>
+                    </div>
+                    <div class="cta-arrow-icon"><a href="#"><img class="icon-arrow"
+                                src="arrow_forward_24dp_FFFFFF_FILL0_wght400_GRAD0_opsz24.svg" alt=""></a>
+                    </div>
+                </div>
+            </div>
+            <div class="testimonial-cta-card six">
+                <div class="image-outline"><img src="images/testimonial-images/⁀➴ usopp aesthetic; one piece.png"
+                        alt=""></div>
+                <p class="cta-card-heading">Captain Ussop</p>
+                <p class="small-text sub-text">Founder & CEO</p>
+                <p class="small-text main-text">I've worked with so many services, but this one stands out. Exceptional
+                    work and customer service!.</p>
+                <div class="star-more">
+                    <div class="star-align">
+                        <ion-icon class="star" name="star"></ion-icon>
+                        <ion-icon class="star" name="star"></ion-icon>
+                        <ion-icon class="star" name="star"></ion-icon>
+                        <ion-icon class="star" name="star"></ion-icon>
+                        <ion-icon class="star-outline" name="star-outline"></ion-icon>
+                    </div>
+                    <div class="cta-arrow-icon"><a href="#"><img class="icon-arrow"
+                                src="arrow_forward_24dp_FFFFFF_FILL0_wght400_GRAD0_opsz24.svg" alt=""></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!---------------------------------------------------- FOOTER SECTION ------------------------------------------>
+    <footer id="footer-contact">
+        <div class="footer-contact-section">
+            
+            <!-- HEADING -->
+                <div class="footer-flex">
+                    <h2 class="hover-text" id="contactheading"> LIKE WHAT YOU SEE? <br>LET'S
+                        <span class="default-text">GET IN TOUCH!</span>
+                        <span class="hovered-text">TALK ABOUT IT!</span>
+                    </h2>
+                    <p class="small-text">Reach out to us, and we'll get back to you as soon as possible. We're here to
+                        help you take the next step towards success</p>
+                    <a href="contact-us.html"><button class="contact-us">Contact Us</button></a>
+
+                </div>
+            <!-- GRID LINE -->
+        </div>
+        <div class="info-container">
+            <div class="info-flex">
+                <div class="info">
+                    <h4 class="info-heading">Info</h4>
+                    <a href="#">
+                        <li class="info-text">Services</li>
+                    </a>
+                    <a href="#">
+                        <li class="info-text">Pricing</li>
+                    </a>
+                    <a href="#">
+                        <li class="info-text">Community</li>
+                    </a>
+                </div>
+                <div class="info">
+                    <h4 class="info-heading">Social</h4>
+                    <a href="#">
+                        <li class="info-text">Facebook</li>
+                    </a>
+                    <a href="#">
+                        <li class="info-text">Instagram</li>
+                    </a>
+                    <a href="#">
+                        <li class="info-text">Linkedin</li>
+                    </a>
+                </div>
+                <div class="info">
+                    <h4 class="info-heading">Company</h4>
+                    <a href="#">
+                        <li class="info-text">About Us</li>
+                    </a>
+                    <a href="#">
+                        <li class="info-text">Contact Us</li>
+                    </a>
+                    <a href="#">
+                        <li class="info-text">FAQ</li>
+                    </a>
+                </div>
+            </div>
+        </div>
+        <ul class="social-icon-container">
+            <div class="social-outline"><a href=""><img class="social-icon" src="images/icons/facebook.png"
+                        alt="Facebook"></a></div>
+            <div class="social-outline"><a href=""><img class="social-icon" src="images/icons/instagram.png"
+                        alt="Facebook"></a></div>
+            <div class="social-outline"><a href=""><img class="social-icon" src="images/icons/twitter.png"
+                        alt="Facebook"></a></div>
+            <div class="social-outline"><a href=""><img class="social-icon" src="images/icons/linkedin.png"
+                        alt="Facebook"></a></div>
+            <div class="social-outline"><a href=""><img class="social-icon" src="images/icons/youtube.png"
+                        alt="Facebook"></a></div>
+        </ul>
+        <!-- SCROLL UP ICON -->
+        <a class="up-back" href="#main-body">
+            <div class="scroll-up-icon">
+                <div class="up-icon">
+                    <img class="up-icon-img" src="images/icons/up-arrow.png" alt="">
+                </div>
+                <p class="scroll-text">back to top</p>
+            </div>
+        </a>
+    </footer>
+    <!------------------------------------------------------ COPYRIGHTS ------------------------------------->
+    <nav class="copyrights">
+        © 2025 Iman-Frontend.com. All Rights Reserved.
+    </nav>
+    </section>
+
+</body>
+
+</html>

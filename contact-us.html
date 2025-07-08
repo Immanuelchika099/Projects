@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us</title>
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+
+    <link rel="stylesheet" href="contact-us.css">
+</head>
+<body>
+    
+    <video autoplay muted loop id="background-video" 
+                src="images/cloud-dark.mp4" type="video/mp4">
+            </video>
+    <div id="main-body" class="main-body">
+        <nav class="nav-bar-main">
+            
+            <!-- NAV LOGO -->
+
+            <a href=""><img class="nav-logo" src="images/logo_text_white.png" alt=""></a>
+            <!-- NAV LINKS -->
+            <ul id="nav-links">
+                <li><a class="nav-links-text" href="index.html">Home </a></li>
+                <li class="link-icon"><a class="nav-links-text" href="#feature-container-main">Components</a></li>
+                <li class="link-icon"><a class="nav-links-text" href="#feature-portfolio-section">Works</a></li>
+                <li class="link-icon"><a class="nav-links-text" href="#">Reviews</a></li>
+                <li class="link-icon"><a class="nav-links-text" href="#">Contact</a></li>
+            </ul>
+            <!-- MENU ICONS -->
+            <div class="menu-icon">
+                <li> <a href="#"><img class="nav-icons" src="images/icons/instagram_white.png" alt=""></a></li>
+                <li><a href="#"><img class="nav-icons" src="images/icons/twitter_white.png" alt=""></a></li>
+                <li><a href="https://web.facebook.com/?ref=homescreenpwa&_rdc=1&_rdr" target="_blank"><img class="nav-icons" src="images/icons/facebook_white.png" alt=""></a></li>
+            </div>
+
+            
+    </div>
+        <div class="contact-main">
+            <div class="contact-section-grid">
+                <div class="contact-section">
+                    <h2 class="contact-heading">Contact Us</h2>
+                    <p class="contact-text">Email, call, or complete the form to learn how <br>we can solve your web-design problems</p>
+                    <p class="contact-text">info@imman.io</p>
+                    <p class="contact-text">311-323-122</p>
+                    <a class="contact-text link" href=""><p>Customer Support</p></a>
+                </div>
+                <div class="contact-section-card">
+                    <h3 class="contact-heading two">Get in Touch</h3>
+                    <p class="contact-text card-text">You can reach us anytime</p>
+                    <li><input class="input" type="text" placeholder="Full name" /></li>
+                    
+                    <li><ion-icon class="email" name="mail-open-outline"></ion-icon><input class="input mail" type="email" placeholder="Your email" /></li>
+                    <li><input class="input" [type="number"]
+                        placeholder="Phone number" required/>
+                    </li>
+                    <li><textarea class="message-input" placeholder="How can we help?"></textarea></li>
+                    <a href=""><button class="btn btn-submit">Submit</button></a>
+                    <p class="contact-text policy">By contacting us, you agree to our <a href="#" class="contact-policy">Terms <br>of service </a>and <a href="#" class="contact-policy">Privacy Policy</a></p>
+                </div>
+            </div>
+        </div>
+</body>
+</html>
