@@ -244,28 +244,32 @@
     .feature-cta-card-main:hover .feature-cta-card:not(:hover){
         transition: 0.3s linear;
         transform: none;
-        transform: scale(0.8, 0.8);
-        filter: blur(4px);
+        filter: none;
     }
    
     .feature-cta-card.one:hover, .feature-cta-card:active{
         box-shadow: none;
-        transform: scale(1.0, 1.0);
+        transform: none;
     }
     .feature-cta-card.two:hover, .feature-cta-card:active{
         box-shadow: none;
+        transform: none;
     }
     .feature-cta-card.three:hover, .feature-cta-card:active{
         box-shadow: none;
+        transform: none;
     }
     .feature-cta-card.four:hover, .feature-cta-card:active{
         box-shadow: none;
+        transform: none;
     }
     .feature-cta-card.five:hover, .feature-cta-card:active{
         box-shadow: none;
+        transform: none;
     }
     .feature-cta-card.six:hover, .feature-cta-card:active{
         box-shadow: none;
+        transform: none;
     }
     /* PAGINATION */
     .pagination{
@@ -530,27 +534,7 @@
         padding: 2.5rem 3rem;
         height: fit-content;
     }
-    .feature-cta-card-main .feature-cta-card:hover{
-        filter: none;
-    }
-    .feature-cta-card.one:hover, .feature-cta-card:active{
-        box-shadow: none;
-    }
-    .feature-cta-card.two:hover, .feature-cta-card:active{
-        box-shadow: none;
-    }
-    .feature-cta-card.three:hover, .feature-cta-card:active{
-        box-shadow: none;
-    }
-    .feature-cta-card.four:hover, .feature-cta-card:active{
-        box-shadow: none;
-    }
-    .feature-cta-card.five:hover, .feature-cta-card:active{
-        box-shadow: none;
-    }
-    .feature-cta-card.six:hover, .feature-cta-card:active{
-        box-shadow: none;
-    }
+    
     .card-text{
         height: 90px;
         font-size: 10.5px;

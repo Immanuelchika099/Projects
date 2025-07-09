@@ -27,9 +27,9 @@ document.addEventListener('DOMContentLoaded', () =>{
 });
 
 // BACKGROUND AUDIO
-const audio = new Audio ('sounds/background_sound.mp3');
-audio.loop = true;
-audio.play();
+// const audio = new Audio ('sounds/background_sound.mp3');
+// audio.loop = true;
+// audio.play();
 
 
 // DOT UNDERNEAT FEATURE-CTA-CARD
