@@ -8,11 +8,10 @@
     <link href='https://cdn.boxicons.com/fonts/basic/boxicons.min.css' rel='stylesheet'>
 </head>
 <body>
-    <video autoplay muted loop id="background-video"
-        src="images/cloud-dark.mp4" type="video/mp4">
-    </video>
 
+    
     <section class="main-body">
+        <img id="background-image" src="images/background-static.png" alt="">
 
         <div class="login-card">
             <form action="">
@@ -20,14 +19,16 @@
                     <img src="images/logo_icon.png" alt="">
                     <h1>Login</h1>
                 </div>
-                <div class="input-box">
-                    <input type="text" placeholder="Username" required/>
-                    <i class='bxr bx-user'></i>
+                <div class="my-box">
+                    <div class="input-box">
+                        <input type="text" placeholder="Username" required/>
+                        <i class='bxr bx-user'></i>
+                    </div>
+                    <div class="input-box">
+                        <input [type="password"] placeholder="Password" />    
+                        <i class='bxr bx-lock'></i> 
+                    </div> 
                 </div>
-                <div class="input-box">
-                    <input [type="password"] placeholder="Password" />    
-                    <i class='bxr bx-lock'></i> 
-                </div> 
                 
 
                 <div class="remember-forget">
@@ -46,7 +47,6 @@
             </form>
         </div>
     </section>
-
 
 </body>
 </html>

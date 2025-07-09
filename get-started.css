@@ -29,10 +29,10 @@ body{
     align-items: center;
     min-height: 100vh;
     z-index: -1;
-    background: linear-gradient(90deg,rgba(0, 0, 0, 0.84), rgba(18, 18, 17, 0.457)) ;
+    background: linear-gradient(90deg,rgba(0, 0, 0, 0.868), rgba(18, 18, 17, 0.594)) ;
 }
 
-#background-video{
+#background-image{
     position: absolute;
     top: 50%;
     left: 50%;
@@ -40,7 +40,7 @@ body{
     min-height: 100%; 
     width: auto;      
     height: 100vh;     
-    z-index: -1;     
+    z-index: -2;     
     transform: translateX(-50%) translateY(-50%); /* Centers the video element precisely */
     object-fit: cover;
 }
@@ -126,11 +126,6 @@ h1{
     pointer-events: none;
 }
 
-input.input-box::placeholder{
-    color: #fff;
-    padding-left: 1rem;
-}
-
 .remember-forget{
     accent-color: #fff;
     display: flex;
@@ -167,7 +162,7 @@ p{
 }
 
 @media (max-width: 125rem){
-    #background-video{
+    #background-image{
         width: 100%;
     }
     .main-body{
@@ -179,10 +174,12 @@ p{
         max-width: 70%;
     }
 }
+
+/* 709PX */
 @media (max-width:44.37rem) {
     h1{
         font-size: 36px;
-        margin-bottom: 60px;
+        margin-bottom: 30px;
     }
     .remember-forget{
         font-size: 12px;
@@ -195,51 +192,110 @@ p{
     }
     .login-card{
         width: 500px;
-        height: 550px;
+        height: fit-content;
     }
 }
+
+/* 628PX */
 @media (max-width:39.3rem) {
-    body{
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-    }
+    
     h1{
         font-size: 34px;
-        margin-bottom: 58px;
     }
     .login-card .input-box{
         margin: 25px 0;
     }
     .login-card{
         width: 500px;
-        height: 500px;
-        padding: 2rem;
+        height: 520px;
+        padding: 2.5rem 3rem;
     }
 }
-@media (max-width:30.62rem) {
+
+/* 480PX */
+@media (max-width:30rem) {
     .main-body{
-        max-width: 90%;
+        max-width: 85%;
     }
     h1{
         font-size: 30px;
-        margin-bottom: 44px;
     }
     .login-card{
         width: 500px;
-        height: 450px;
-        padding: 1.5rem;
+        height: 500px;
+        padding: 2.5rem;
+    }
+    .input-box input{
+        padding: 20px 25px;
     }
     .remember-forget{
-        font-size: 11px;
+        font-size: 12px;
     }
     .Register-flex{
-        font-size: 11px;
+        font-size: 12px;
     }
     .btn{
-        height: 38px;
+        height: 30px;
+        font-size: 14px;
+        height: 2.2rem;
     }
     .login-card .input-box{
         margin: 20px 0;
+    }
+}
+
+/* 375PX */
+@media (max-width:23.5rem) {
+    .main-body{
+        max-width: 90%;
+    }
+    .login-card{
+        width: 400px;
+        height: fit-content;
+        padding: 3rem 2rem;
+    }
+    h1{
+        margin-bottom: 2rem;
+    }
+    .input-box input::placeholder{
+        font-size: 12px;
+    }
+    .input-box input{
+        padding: 20px 30px;
+        height: fit-content;
+    }
+    .my-box{
+        margin-bottom: 1rem;
+    }
+    .login-card .input-box{
+        margin-top: 0;
+        height: 35px;
+    }
+    .remember-forget{
+        margin-right: 0;
+    }
+}
+
+/* 320PX */
+@media (max-width:23.5rem) {
+    .login-card{
+        width: 300px;
+        height: fit-content;
+        padding: 2rem 2rem;
+    }
+    h1{
+        font-size: 24px;
+        margin-bottom: 2rem;
+    }
+    img{
+        width: 25px;
+    }
+    .input-box input{
+        padding: 15px 28px;
+        height: 10px;
+    }
+    .login-card .input-box{
+        margin-top: 0;
+        margin-bottom: 10px;
     }
 }
