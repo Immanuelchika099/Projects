@@ -105,7 +105,7 @@ body {
     background: linear-gradient(90deg, rgba(0, 0, 0, 0.84), rgba(18, 18, 17, 0.457));
 }
 
-#background-video {
+#background-image {
     opacity: 1;
     position: absolute;
     top: 50%;
@@ -120,7 +120,7 @@ body {
 }
 
 /* --------- ARROW SCROLL ---- */
-.arrow-scroll {
+.arrow-scroll{
     position: absolute;
     opacity: 0;
     animation: arrow-scroll 4500ms infinite alternate-reverse forwards;
@@ -297,12 +297,12 @@ body {
     font-family: 'Cardot', 'Inter', sans-serif;
     font-weight: 400;
     letter-spacing: 2.5px;
-    /* opacity: 0; */
-    /* animation: hero-title 1500ms linear forwards; */
+    opacity: 0;
+    animation: hero-title 1500ms linear forwards;
     animation-delay: 1s;
 }
 
-/* @keyframes hero-title {
+@keyframes hero-title {
     0% {
         opacity: 0;
         transform: translateY(-20%);
@@ -312,18 +312,18 @@ body {
         opacity: 1;
         transform: translateY(0);
     }
-} */
+}
 
 .hero-buttons {
     display: flex;
     gap: 3rem;
     margin-bottom: 4rem;
-    /* animation: hero-buttons 1500ms linear forwards; */
+    animation: hero-buttons 1500ms linear forwards;
     animation-delay: 2s;
-    /* opacity: 0; */
+    opacity: 0;
 }
 
-/* @keyframes hero-buttons {
+@keyframes hero-buttons {
     0% {
         opacity: 0;
         transform: translateY(-150%);
@@ -333,7 +333,7 @@ body {
         opacity: 1;
         transform: translateY(0);
     }
-} */
+}
 
 
 /*  ------------------------------------------------------------------- BUTTONS  */
@@ -398,12 +398,12 @@ body {
 
 .btn-tertiary {
     margin-bottom: 2rem;
-    /* opacity: 0; */
-    /* animation: btn-tertiary 1500ms linear forwards; */
+    opacity: 0;
+    animation: btn-tertiary 1500ms linear forwards;
     animation-delay: 2.2s;
 }
 
-/* @keyframes btn-tertiary {
+@keyframes btn-tertiary {
     0% {
         opacity: 0;
         transform: translateX(20px);
@@ -413,7 +413,7 @@ body {
         opacity: 1;
         transform: translateX(0);
     }
-} */
+}
 
 /* ----- BTN TERTIARY ------ */
 .btn-tertiary:link,
@@ -505,8 +505,8 @@ body {
     border-radius: 2rem;
     font-size: var(--normal-text);
     font-weight: var(--medium-weight);
-    /* opacity: 0;
-    animation: hero-cta-card1 1500ms ease-out forwards; */
+    opacity: 0;
+    animation: hero-cta-card1 1500ms ease-out forwards;
     animation-delay: 3.5s;
 }
 
@@ -534,8 +534,8 @@ body {
     border-radius: 2rem;
     font-size: var(--normal-text);
     font-weight: var(--medium-weight);
-    /* opacity: 0;
-    animation: hero-cta-card2 1500ms ease-out forwards; */
+    opacity: 0;
+    animation: hero-cta-card2 1500ms ease-out forwards;
     animation-delay: 3.8s;
 }
 
@@ -564,8 +564,8 @@ body {
     border-radius: 2rem;
     font-size: var(--normal-text);
     font-weight: var(--medium-weight);
-    /* opacity: 0;
-    animation: hero-cta-card3 1500ms ease-out forwards; */
+    opacity: 0;
+    animation: hero-cta-card3 1500ms ease-out forwards;
     animation-delay: 4s;
 }
 
