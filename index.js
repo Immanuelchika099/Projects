@@ -1,8 +1,3 @@
-const video = document.getElementById ('background-video');
-
-video.oncanplay = () => {
-  document.body.classList.add ('video-loaded')
-}
 
 // NAV BAR TOGGLE
 const navbarToggle = document.querySelector('.navbar-toggle');
@@ -31,9 +26,10 @@ document.addEventListener('DOMContentLoaded', () =>{
     });
 });
 
-// const audio = new Audio ('sounds/background_sound.mp3');
-// audio.loop = true;
-// audio.play();
+// BACKGROUND AUDIO
+const audio = new Audio ('sounds/background_sound.mp3');
+audio.loop = true;
+audio.play();
 
 
 // DOT UNDERNEAT FEATURE-CTA-CARD
@@ -91,6 +87,7 @@ myCards.forEach((item, i) => {
   })
 
 })
+
 
 AOS.init({
   duration: 1500,
