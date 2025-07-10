@@ -215,7 +215,7 @@ p{
 /* 480PX */
 @media (max-width:30rem) {
     .main-body{
-        max-width: 85%;
+        max-width: 90%;
     }
     h1{
         font-size: 30px;
