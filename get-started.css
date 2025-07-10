@@ -13,7 +13,6 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 100vh;
     font-family: 'Inter', sans-serif;
     overflow: hidden;
 }
@@ -28,7 +27,6 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
-    min-height: 100vh;
     z-index: -1;
     background: linear-gradient(90deg,rgba(0, 0, 0, 0.868), rgba(18, 18, 17, 0.594)) ;
     overflow: hidden;
@@ -41,7 +39,7 @@ body{
     min-width: 100%;  
     min-height: 100%; 
     width: auto;      
-    height: 100vh;     
+    height: 100%;     
     z-index: -2;     
     transform: translateX(-50%) translateY(-50%); /* Centers the video element precisely */
     object-fit: cover;
@@ -249,7 +247,7 @@ p{
 /* 375PX */
 @media (max-width:23.5rem) {
     .login-card{
-        width: 400px;
+        width: fit-content;
         height: fit-content;
         padding: 3rem 2rem;
     }
