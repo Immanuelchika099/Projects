@@ -246,9 +246,6 @@ p{
 
 /* 375PX */
 @media (max-width:23.5rem) {
-    .main-body{
-        max-width: 90%;
-    }
     .login-card{
         width: 400px;
         height: fit-content;
