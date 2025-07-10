@@ -13,8 +13,9 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
-    min-height: 100vh;
+    height: 100vh;
     font-family: 'Inter', sans-serif;
+    overflow-y: hidden;
 }
 
 .main-body::before{
