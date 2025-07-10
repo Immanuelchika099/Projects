@@ -260,19 +260,29 @@ p{
     .input-box input::placeholder{
         font-size: 12px;
     }
-    .input-box input{
-        padding: 20px 30px;
-        height: fit-content;
-    }
     .my-box{
         margin-bottom: 1rem;
     }
     .login-card .input-box{
         margin-top: 0;
-        height: 35px;
+        height: 40px;
     }
     .remember-forget{
         margin-right: 0;
+        margin-bottom: 30px;
+        font-size: 11px;
+    }
+    button.btn{
+        margin-bottom: 20px;
+    }
+    p{
+        font-size: 11px;
+    }
+    .register{
+        font-size: 11px;
+    }
+    input{
+        font-size: 12px;
     }
 }
 

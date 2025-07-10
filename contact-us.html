@@ -6,6 +6,7 @@
     <title>Contact Us</title>
     <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
     <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+    <script src="index.js" defer></script>
 
     <link rel="stylesheet" href="contact-us.css">
 </head>
@@ -17,28 +18,36 @@
 
         <img id="background-image" src="images/background-static.png" alt="">
 
+        <!-- NAVIGATION BAR -->
         <nav class="nav-bar-main">
-            
+
             <!-- NAV LOGO -->
 
             <a href=""><img class="nav-logo" src="images/logo_text_white.png" alt=""></a>
             <!-- NAV LINKS -->
-            <ul id="nav-links">
-                <li><a class="nav-links-text" href="index.html">Home </a></li>
+            <ul id="nav-links" class="nav-links">
+                <li><a class="nav-links-text active" href="#main-body">Home </a></li>
                 <li class="link-icon"><a class="nav-links-text" href="#feature-container-main">Components</a></li>
                 <li class="link-icon"><a class="nav-links-text" href="#feature-portfolio-section">Works</a></li>
-                <li class="link-icon"><a class="nav-links-text" href="#">Reviews</a></li>
-                <li class="link-icon"><a class="nav-links-text" href="#">Contact</a></li>
+                <li class="link-icon"><a class="nav-links-text" href="#feature-testimonial-section">Reviews</a></li>
+                <li class="link-icon"><a class="nav-links-text" href="#footer-contact">Contact</a></li>
             </ul>
             <!-- MENU ICONS -->
             <div class="menu-icon">
                 <li> <a href="#"><img class="nav-icons" src="images/icons/instagram_white.png" alt=""></a></li>
                 <li><a href="#"><img class="nav-icons" src="images/icons/twitter_white.png" alt=""></a></li>
-                <li><a href="https://web.facebook.com/?ref=homescreenpwa&_rdc=1&_rdr" target="_blank"><img class="nav-icons" src="images/icons/facebook_white.png" alt=""></a></li>
+                <li><a href="https://web.facebook.com/?ref=homescreenpwa&_rdc=1&_rdr" target="_blank"><img
+                            class="nav-icons" src="images/icons/facebook_white.png" alt=""></a></li>
             </div>
-
-            
-    </div>
+            <!-- MENU TOOGLE BAR -->
+                <button class="navbar-toggle">
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                </button>
+        </nav>
+        
+        <!-- CCONTACT SECTION MAIN -->
         <div class="contact-main">
             <div class="contact-section-grid">
                 <div class="contact-section">
@@ -62,6 +71,8 @@
                     <p class="contact-text policy">By contacting us, you agree to our <a href="#" class="contact-policy">Terms <br>of service </a>and <a href="#" class="contact-policy">Privacy Policy</a></p>
                 </div>
             </div>
-        </div>
+        </div>    
+    </div>
+        
 </body>
 </html>
