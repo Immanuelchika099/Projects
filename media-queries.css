@@ -1208,7 +1208,8 @@
         border-top-right-radius: 2rem;
     }
     .footer-contact-section{
-        max-width: 100%;
+        min-width: 100%;
+        width: auto;
     }
     .footer-flex{
         margin-bottom: 40px;
