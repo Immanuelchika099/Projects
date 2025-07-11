@@ -404,7 +404,7 @@ a{
 
 /* 428px */
 @media (max-width: 26.75rem){
-    .main-body{
+    #main-body.main-body{
         height: 130vh;
     }
     .contact-main{
@@ -438,6 +438,7 @@ a{
     }
     .nav-links-text{
         font-size: 18px;
+        color: #fff;
     }
     #nav-links{
         justify-content: start
@@ -535,6 +536,7 @@ a{
     }
 }
 
+/* 375px */
 @media (max-width:23.5rem) {
     .contact-main{
         width: 100%;
@@ -545,11 +547,10 @@ a{
     }
     .nav-links-text{
         font-size: 14px;
-
-        color: #fff;
     }
 }
 
+/* 320px */
 @media (max-width: 20rem) {
     html{
         font-size: 43%;
