@@ -183,7 +183,8 @@ li{
     text-decoration: none;
 }
 .contact-main{
-    height: 90%;
+    min-height: 85vh;
+    height: auto;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -207,7 +208,8 @@ li{
     justify-self: center;
     background-color: #fff;
     padding: 2rem 3rem;
-    width: 50rem;
+    min-width: 50rem;
+    width: auto;
     height: 55rem;
     border-radius: 2rem;
 }
@@ -300,11 +302,13 @@ li{
 #footer-contact{
     width: 100%;
     background: linear-gradient(90deg, rgb(237, 237, 237), rgba(232, 232, 232, 0.831));
-    height: 40vh;
-    padding-top: 10rem;
+    height: 30vh;
+    padding-top: 4rem;
     display: flex;
     flex-direction: column;
     justify-content:space-between;
+    border-top-left-radius: 5rem;
+    border-top-right-radius: 5rem;
 }
 
 /* --------- FOOTER NAV ------- */
@@ -329,7 +333,7 @@ a{
 }
 .info-text{
     color: #0b0b0b;
-    font-size: 1.5rem;
+    font-size: 1.4rem;
     transition: 0.2s ease-in-out;
 }
 
@@ -343,14 +347,14 @@ a{
     display: flex;
     align-items: center;
     justify-content: center;
-    width: 30px;
-    height: 30px;
+    width: 25px;
+    height: 25px;
     border: 1px solid black;
     border-radius: 100%;
 }
 
 .social-icon {
-    width: 16px;
+    width: 15px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -406,19 +410,11 @@ a{
 
 /* 428px */
 @media (max-width: 26.75rem){
-    #main-body.main-body{
-        min-height: 130vh;
-        height: auto;
-    }
     .contact-main{
-        min-height: fit-content;
-        height: auto;
+        margin-bottom: 15rem;
     }
     .contact-heading{
-        margin-bottom
-        .contact-section-card{
-            width: 340px;
-        }: 2.5rem;
+        margin-bottom: 2.5rem;
         line-height: 50px;
     }
     .contact-section-grid{
@@ -426,11 +422,11 @@ a{
         row-gap: 0;
     }
     .contact-section-card{
-        min-width: 350px;
+        min-width: 360px;
         width: auto;
     }
     .contact-section{
-        min-height: 55vh;
+        min-height: 50vh;
         height: auto;
         display: flex;
         flex-direction: column;
@@ -510,13 +506,11 @@ a{
         column-gap: 4rem;
         color: #fff;
     }
-    p{
-        display: inline;
-    }
     .contact-text{
         margin-bottom: 3rem;
     }
     .contact-text.flex{
+        color: #fff !important;
         margin-bottom: 0;
         width: fit-content;
         padding: 1.5rem 3rem;
@@ -526,7 +520,7 @@ a{
         background-color: #5858584e;
         backdrop-filter: blur(15px);
         border-radius: 5rem;
-    }
+    }   
     .contact-text.flex:hover{
         background-image: linear-gradient(to bottom, #4a4a4a00, #89898933);
     }
@@ -535,7 +529,7 @@ a{
         margin-top: 1rem;
     }
     #footer-contact{
-        padding-top: 14rem;
+        padding-top: 7rem;
     }
     .info-text{
         font-size: 12px;
