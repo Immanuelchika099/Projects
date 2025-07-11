@@ -421,7 +421,8 @@ body {
 .btn-tertiary:visited {
     border: 1px solid #2f3133;
     color: #f9f9f9;
-    background-color: #212529;
+    background-color: #5858584e;
+    backdrop-filter: blur(15px);
     box-shadow: 2px 2px 5px -2px var(--dark);
 
 }
@@ -430,7 +431,7 @@ body {
 .btn-tertiary:active {
     transform: scale(1.05, 1.0) translate(0, 1.3px);
     box-shadow: 2px 2px 5px -2px var(--dark);
-    background-image: linear-gradient(to bottom right, #615b5b, #4b303b);
+    background-image: linear-gradient(to bottom, #4a4a4a00, #89898933);
 
 }
 
@@ -771,8 +772,11 @@ p {
 #feature-portfolio-section {
     width: 100%;
     max-width: 90%;
-    height: 100vh;
+    height: 120vh;
     margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 }
 
 .feature-portfolio-heading {
@@ -956,12 +960,33 @@ p {
     transform: translateY(-50%) translateX(50px);
 
 }
+/* PORTFOLIO BTN */
+.see-more{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 2rem;
+}
+.more.flex{
+    color: #fff;
+    margin-bottom: 0;
+    width: fit-content;
+    font-size: 12px;
+    padding: 8px 16px;
+    box-shadow: 2px 2px 5px -2px var(--dark);
+    background-color: #5858584e;
+    backdrop-filter: blur(15px);
+    border-radius: 5rem;
+}
+.more.flex:hover{
+        background-image: linear-gradient(to bottom, #4a4a4a00, #89898933);
+    }
 
 /* -------------------------------------------------------------------- TESTIMONIAL SECTIONS */
 #feature-testimonial-section{
     width: 100%;
     max-width: 90%;
-    height: 140vh;
+    height: 150vh;
     margin: 0 auto;
     position: relative;
 }

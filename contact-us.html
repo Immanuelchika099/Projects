@@ -26,11 +26,11 @@
             <a href=""><img class="nav-logo" src="images/logo_text_white.png" alt=""></a>
             <!-- NAV LINKS -->
             <ul id="nav-links" class="nav-links">
-                <li><a class="nav-links-text active" href="#main-body">Home </a></li>
+                <li><a class="nav-links-text active" href="index.html">Home </a></li>
                 <li class="link-icon"><a class="nav-links-text" href="#feature-container-main">Components</a></li>
                 <li class="link-icon"><a class="nav-links-text" href="#feature-portfolio-section">Works</a></li>
                 <li class="link-icon"><a class="nav-links-text" href="#feature-testimonial-section">Reviews</a></li>
-                <li class="link-icon"><a class="nav-links-text" href="#footer-contact">Contact</a></li>
+                <li class="link-icon"><a class="nav-links-text" href="contact-us.css">Contact</a></li>
             </ul>
             <!-- MENU ICONS -->
             <div class="menu-icon">
@@ -51,28 +51,92 @@
         <div class="contact-main">
             <div class="contact-section-grid">
                 <div class="contact-section">
-                    <h2 class="contact-heading">Contact Us</h2>
+                    <h2 class="contact-heading">Connect <br>with Us</h2>
                     <p class="contact-text">Email, call, or complete the form to learn how <br>we can solve your web-design problems</p>
-                    <p class="contact-text">info@imman.io</p>
-                    <p class="contact-text">311-323-122</p>
-                    <a class="contact-text link" href=""><p>Customer Support</p></a>
+                    <div class="btn-flex">
+                        <p class="contact-text flex">iman@yahoo.com</p>
+                        <p class="contact-text flex">+234-311-323-122</p>
+                    </div>
+                    
                 </div>
                 <div class="contact-section-card">
                     <h3 class="contact-heading two">Get in Touch</h3>
                     <p class="contact-text card-text">You can reach us anytime</p>
-                    <li><input class="input" type="text" placeholder="Full name" /></li>
+                    <li><input class="input" type="text" placeholder="Full name *" /></li>
                     
-                    <li><ion-icon class="email" name="mail-open-outline"></ion-icon><input class="input mail" type="email" placeholder="Your email" /></li>
+                    <li><input class="input mail" type="email" placeholder="Your email *" /></li>
                     <li><input class="input" [type="number"]
-                        placeholder="Phone number" required/>
+                        placeholder="Phone number *" required/>
                     </li>
                     <li><textarea class="message-input" placeholder="How can we help?"></textarea></li>
                     <a href=""><button class="btn btn-submit">Submit</button></a>
-                    <p class="contact-text policy">By contacting us, you agree to our <a href="#" class="contact-policy">Terms <br>of service </a>and <a href="#" class="contact-policy">Privacy Policy</a></p>
+                    <p class="contact-text policy"> <span class="contact-policy">I agree to </span>the processing of personal data</p>
                 </div>
             </div>
-        </div>    
+        </div>
+        
+        
+    
     </div>
+
+    <!---------------------------------------------------- FOOTER SECTION ------------------------------------------>
+    <footer id="footer-contact">
+        
+            <div class="info-flex">
+                <div class="info">
+                    <h4 class="info-heading">Info</h4>
+                    <a href="#">
+                        <li class="info-text">Services</li>
+                    </a>
+                    <a href="#">
+                        <li class="info-text">Pricing</li>
+                    </a>
+                    <a href="#">
+                        <li class="info-text">Community</li>
+                    </a>
+                </div>
+                <div class="info">
+                    <h4 class="info-heading">Social</h4>
+                    <a href="#">
+                        <li class="info-text">Facebook</li>
+                    </a>
+                    <a href="#">
+                        <li class="info-text">Instagram</li>
+                    </a>
+                    <a href="#">
+                        <li class="info-text">Linkedin</li>
+                    </a>
+                </div>
+                <div class="info">
+                    <h4 class="info-heading">Company</h4>
+                    <a href="#">
+                        <li class="info-text">About Us</li>
+                    </a>
+                    <a href="#">
+                        <li class="info-text">Contact Us</li>
+                    </a>
+                    <a href="#">
+                        <li class="info-text">FAQ</li>
+                    </a>
+                </div>
+            </div>
+        <ul class="social-icon-container">
+            <div class="social-outline"><a href=""><img class="social-icon" src="images/icons/facebook.png"
+                        alt="Facebook"></a></div>
+            <div class="social-outline"><a href=""><img class="social-icon" src="images/icons/instagram.png"
+                        alt="Facebook"></a></div>
+            <div class="social-outline"><a href=""><img class="social-icon" src="images/icons/twitter.png"
+                        alt="Facebook"></a></div>
+            <div class="social-outline"><a href=""><img class="social-icon" src="images/icons/linkedin.png"
+                        alt="Facebook"></a></div>
+            <div class="social-outline"><a href=""><img class="social-icon" src="images/icons/youtube.png"
+                        alt="Facebook"></a></div>
+        </ul>
+    </footer>
+    <!------------------------------------------------------ COPYRIGHTS ------------------------------------->
+    <nav class="copyrights">
+        © 2025 Iman-Frontend.com. All Rights Reserved.
+    </nav>
         
 </body>
 </html>

@@ -94,6 +94,9 @@
         height: 45px;
         margin-bottom: 1rem;
     }
+    .hovered-text{
+        left: 140px;
+    }
 }
 
 /* 992PX */
@@ -628,6 +631,7 @@
     }
     /* MENU TOGGLE ICON */
     .nav-bar-main{
+        height: 36px;
         backdrop-filter: none;
         background: rgba(8, 8, 8, 0.975);
     }
@@ -649,6 +653,7 @@
         top: 0;
         right: 0;
         padding: 10rem 5rem 2rem;
+        background-color: #0b0b0b9d;
         backdrop-filter: blur(15px);
         box-shadow: 0 -10px 10px rgba(0, 0, 0, 0.603);
     }
@@ -938,6 +943,15 @@
         width: 120rem;
         max-width: 80%;
     }
+    .bar{
+        height: 2px;
+        width: 20px;
+        margin: 3.5px;
+    }
+    .nav-logo{
+        margin-left: 40px;
+        width: 50px;
+    }
     .arrow-scroll{
         bottom: 70px;
     }
@@ -1115,7 +1129,10 @@
     .small-text.main-text{
         height: 100px;
         margin-bottom: 0;
-    }   
+    }
+    .see-more{
+        margin-top: 15px;
+}
 }
 /* 375PX */
 @media (max-width:23.5rem) {
@@ -1127,15 +1144,6 @@
     #background-image{
         overflow: hidden;
         top: 50%;
-    }
-    .bar{
-        height: 2px;
-        width: 20px;
-        margin: 3.5px;
-    }
-    .nav-logo{
-
-        width: 50px;
     }
     .feature-container{
         margin-top: 1px;
@@ -1267,6 +1275,13 @@
     }
     .copyrights{
         font-size: 11px;
+    }
+
+    /* PORTFOLIO */
+    .more.flex{
+        font-size: 11px;
+        padding: 5px 10px;
+        backdrop-filter: blur(15px);
     }
 
     /* FEATURES */
