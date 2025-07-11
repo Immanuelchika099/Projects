@@ -3,6 +3,10 @@
     src: url('Inter-VariableFont_opsz\,wght.ttf') format('truetype');
 } 
 
+html{
+    font-size: 62.5%;
+}
+
 *{
     margin: 0;
     padding: 0;
@@ -10,12 +14,19 @@
 }
 
 body{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    min-height: 100vh;
     font-family: 'Inter', sans-serif;
+    width: 100%;
 }
+
+.main-body {
+    position: relative;
+    background-size: cover;
+    height: 100vh;
+    min-height: 100vh;
+    width: 100%;
+    overflow: hidden;
+}
+
 
 .main-body::before{
     content: '';
@@ -27,7 +38,6 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
-    min-height: 100vh;
     z-index: -1;
     background: linear-gradient(90deg,rgba(0, 0, 0, 0.868), rgba(18, 18, 17, 0.594)) ;
 }
@@ -38,8 +48,8 @@ body{
     left: 50%;
     min-width: 100%;  
     min-height: 100%; 
-    width: auto;      
-    height: 100vh;     
+    width: 100%;      
+    height: 100%;     
     z-index: -2;     
     transform: translateX(-50%) translateY(-50%); /* Centers the video element precisely */
     object-fit: cover;
@@ -214,9 +224,6 @@ p{
 
 /* 480PX */
 @media (max-width:30rem) {
-    .main-body{
-        max-width: 85%;
-    }
     h1{
         font-size: 30px;
     }
@@ -250,7 +257,7 @@ p{
         max-width: 90%;
     }
     .login-card{
-        width: 400px;
+        width: fit-content;
         height: fit-content;
         padding: 3rem 2rem;
     }
