@@ -210,7 +210,7 @@ li{
     padding: 2rem 3rem;
     min-width: 50rem;
     width: auto;
-    height: 55rem;
+    height: auto;
     border-radius: 2rem;
 }
 .contact-heading{
@@ -303,7 +303,7 @@ li{
     width: 100%;
     background: linear-gradient(90deg, rgb(237, 237, 237), rgba(232, 232, 232, 0.831));
     height: 30vh;
-    padding-top: 4rem;
+    padding-top: 2rem;
     display: flex;
     flex-direction: column;
     justify-content:space-between;
@@ -315,6 +315,8 @@ li{
 .info-flex{
     display: flex;
     justify-content: space-evenly;
+    min-height: 80%;
+    align-items: center;
 }
 
 .info{
@@ -403,27 +405,17 @@ a{
     .info-text{
         font-size: 14px;
     }
-    #footer-contact{
-        padding-top: 13rem;
+    .contact-section-card{
+        padding: 20px 21px;
+        height: auto;
     }
 }
 
-/* 428px */
-@media (max-width: 26.75rem){
-    .contact-main{
-        margin-bottom: 15rem;
-    }
-    .contact-heading{
-        margin-bottom: 2.5rem;
-        line-height: 50px;
-    }
+/* 680PX */
+@media (max-width: 42.5rem) {
     .contact-section-grid{
         grid-template-columns: 1fr;
-        row-gap: 0;
-    }
-    .contact-section-card{
-        min-width: 360px;
-        width: auto;
+        margin-bottom: 10rem;
     }
     .contact-section{
         min-height: 50vh;
@@ -433,7 +425,10 @@ a{
         justify-content: center;
         text-align: center;
     }
-    /* NAV */
+}
+
+/* 610px */
+@media (max-width: 38.125rem) {
     .nav-bar-main{
         animation: none;
         justify-content: space-between;
@@ -498,6 +493,27 @@ a{
         margin-left: 40px;
         width: 50px;
     }
+}
+
+/* 428px */
+@media (max-width: 26.75rem){
+    .contact-main{
+        margin-bottom: 8rem;
+    }
+    .contact-heading{
+        margin-bottom: 2.5rem;
+        line-height: 50px;
+    }
+    .contact-section-grid{
+        grid-template-columns: 1fr;
+        row-gap: 0;
+    }
+    .contact-section-card{
+        min-width: 360px;
+        width: auto;
+    }
+    
+    /* NAV */
 
     /* BUTTONS */
     .btn-flex{
@@ -527,9 +543,6 @@ a{
     .contact-text.policy{
         font-size: 11px;
         margin-top: 1rem;
-    }
-    #footer-contact{
-        padding-top: 7rem;
     }
     .info-text{
         font-size: 12px;
