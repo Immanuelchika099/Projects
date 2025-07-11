@@ -43,17 +43,17 @@ html{
     font-size: 62.5%;
 }
 body{
-    overflow-x: hidden;
     background-color: #0b0b0b;
     font-family: 'Inter', sans-serif;
+    height: auto;
 }
 /* ------------------------------- CONTAINERS ---------- */
 
 .main-body {
     position: relative;
-    height: auto;
     min-height: 100vh;
     min-width: 100%;
+    height: auto;
     width: auto;
     overflow-x: hidden;
 }
@@ -65,9 +65,9 @@ body{
     top: 0;
     left: 0;
     min-width: 100%;
-    height: 100%;
-    width: 100%;
-    height: 100%;
+    min-height: 100%;
+    width: auto;
+    height: auto;
     z-index: -1;
     background: linear-gradient(90deg,rgba(0, 0, 0, 0.868), rgba(18, 18, 17, 0.594)) ;
 }                                               
@@ -80,7 +80,6 @@ body{
     min-width: 100%;
     min-height: 100%;
     width: 100%;
-    height: 100%;
     height: 100%;
     z-index: -2;
     transform: translateX(-50%) translateY(-50%);
@@ -416,12 +415,19 @@ a{
         height: auto;
     }
     .contact-heading{
-        margin-bottom: 2.5rem;
+        margin-bottom
+        .contact-section-card{
+            width: 340px;
+        }: 2.5rem;
         line-height: 50px;
     }
     .contact-section-grid{
         grid-template-columns: 1fr;
         row-gap: 0;
+    }
+    .contact-section-card{
+        min-width: 350px;
+        width: auto;
     }
     .contact-section{
         min-height: 55vh;
@@ -502,6 +508,7 @@ a{
         display: flex;
         justify-content: center;
         column-gap: 4rem;
+        color: #fff;
     }
     p{
         display: inline;
