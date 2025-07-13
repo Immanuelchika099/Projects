@@ -1,3 +1,9 @@
+// VIDEO
+const video = document.getElementById('background-image');
+video.play().catch(function(error) {
+  console.log('Autoplay prevented:', error);
+});
+
 
 // NAV BAR TOGGLE
 const navbarToggle = document.querySelector('.navbar-toggle');
