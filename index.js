@@ -1,7 +1,7 @@
 
 // NAV BAR TOGGLE
 const navbarToggle = document.querySelector('.navbar-toggle');
-const navbarLinks =document.querySelector('.nav-links')
+const navbarLinks =document.querySelector('.nav-links');
 
 navbarToggle.addEventListener('click', () => {
   navbarToggle.classList.toggle('active');

@@ -67,7 +67,6 @@ html {
 
 }
 
-
 body {
     background: radial-gradient(rgba(0, 0, 0), rgba(0, 0, 0, 0.911));
     overflow-x: hidden;
@@ -80,9 +79,7 @@ body {
     margin: 0 auto;
 }
 
-
 /* --------------------------- MAIN HEADING -------------------- */
-/* ---------------------------------------------- BACKGROUND MP4 */
 .main-body {
     position: relative;
     background-size: cover;
@@ -91,7 +88,6 @@ body {
     width: 100%;
     overflow: hidden;
 }
-
 
 .main-body::before {
     content: '';
@@ -138,7 +134,6 @@ body {
         opacity: 1;
         transform: translateY(0);
     }
-
     50% {
         opacity: 1;
         transform: translateY(25px);
@@ -151,7 +146,6 @@ body {
 }
 
 /* --------------------------------------------------------------- */
-
 
 /* ---------------------------------------------------- NAVIGATION BAR */
 .nav-bar-main {
@@ -251,15 +245,19 @@ body {
 }
 
 .nav-icons {
-    width: 20px;
+    font-size: 20px;
+    color: #fff;
+    transition: color 0.2s ease-out;
+}
+.nav-icons:hover{
+    color: #ff7ab1;
+    text-shadow: 0 -1px 20px #fff;
 }
 
 /* ---- NAV-LOGO ---- */
 .nav-logo {
     width: 80px;
-    /* margin-left: 5rem; */
 }
-
 
 /* ------------------------------------------------- HERO TITLE */
 
@@ -279,7 +277,6 @@ body {
     gap: 3rem;
     align-items: left;
     justify-content: center;
-    /* margin-bottom: 13rem; */
     z-index: 1;
 }
 .hidden-hero-text{
@@ -334,7 +331,6 @@ body {
         transform: translateY(0);
     }
 }
-
 
 /*  ------------------------------------------------------------------- BUTTONS  */
 .btn {
@@ -432,7 +428,6 @@ body {
     transform: scale(1.05, 1.0) translate(0, 1.3px);
     box-shadow: 2px 2px 5px -2px var(--dark);
     background-image: linear-gradient(to bottom, #4a4a4a00, #89898933);
-
 }
 
 /*  ------------------------------------------------- CTA CARD -------------------------------------------------------------- */
@@ -510,6 +505,10 @@ body {
     opacity: 0;
     animation: hero-cta-card1 1500ms ease-out forwards;
     animation-delay: 3.5s;
+    transition: 0.3s linear;
+}
+.hero-cta-card1:hover{
+    box-shadow: 0px 0px 100px -30px #747272e7;
 }
 
 @keyframes hero-cta-card1 {
@@ -539,6 +538,11 @@ body {
     opacity: 0;
     animation: hero-cta-card2 1500ms ease-out forwards;
     animation-delay: 3.8s;
+    transition: 0.3s linear;
+}
+
+.hero-cta-card2:hover{
+    box-shadow: 0px 0px 100px -30px #747272e7;
 }
 
 @keyframes hero-cta-card2 {
@@ -569,6 +573,10 @@ body {
     opacity: 0;
     animation: hero-cta-card3 1500ms ease-out forwards;
     animation-delay: 4s;
+    transition: 0.3s linear;
+}
+.hero-cta-card3:hover{
+    box-shadow: 0px 0px 100px -30px #747272e7;
 }
 
 @keyframes hero-cta-card3 {
@@ -619,7 +627,7 @@ a {
     justify-content: center;
     align-items: center;
     width: 100%;
-    height: 140vh;
+    height: 145vh;
     margin: 0 auto;
     position: relative;
 }
@@ -772,7 +780,7 @@ p {
 #feature-portfolio-section {
     width: 100%;
     max-width: 90%;
-    height: 120vh;
+    height: 130vh;
     margin: 0 auto;
     display: flex;
     flex-direction: column;
@@ -1290,7 +1298,6 @@ p {
     font-size: 1.3rem;
     padding: 0.5rem 0;
 }
-
 
 /* MENU NAV BAR ICON */
 .menu-main{

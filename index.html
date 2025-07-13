@@ -23,7 +23,11 @@
     <!------------------------------------------------ MAIN HEADING SECTION -->
     <div id="main-body" class="main-body">
 
-        <img id="background-image" src="images/background-static.png" alt="">
+        <video autoplay muted loop id="background-image">
+            <source src = "images/motttion.mp4" type = "video/mp4" />
+        </video>
+
+        <!-- <img id="background-image" src="images/background-static.png" alt=""> -->
 
         <nav class="nav-bar-main">
 
@@ -40,10 +44,9 @@
             </ul>
             <!-- MENU ICONS -->
             <div class="menu-icon">
-                <li> <a href="#"><img class="nav-icons" src="images/icons/instagram_white.png" alt=""></a></li>
-                <li><a href="#"><img class="nav-icons" src="images/icons/twitter_white.png" alt=""></a></li>
-                <li><a href="https://web.facebook.com/?ref=homescreenpwa&_rdc=1&_rdr" target="_blank"><img
-                            class="nav-icons" src="images/icons/facebook_white.png" alt=""></a></li>
+                <li><a href="#"><ion-icon class="nav-icons" name="logo-instagram"></ion-icon></a></li>
+                <li><a href="#"><ion-icon class="nav-icons" name="logo-twitter"></ion-icon></a></li>
+                <li><a href="#"><ion-icon class="nav-icons" name="logo-facebook"></ion-icon></a></li>
             </div>
             <!-- MENU TOOGLE BAR -->
                 <button class="navbar-toggle">
@@ -436,5 +439,4 @@
     </section>
 
 </body>
-
 </html>
